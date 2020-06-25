@@ -2,12 +2,21 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow-x:hidden;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.root {
+    width: auto;
+}
+
+.main {
+    width: auto;
 }
 
 .div {
@@ -18,7 +27,6 @@ code {
 /*Nav Bar Section*/
 .navbar {
     background-color: #14afde;
-    box-sizing: border-box;
 }
 
 .navbar-brand {
@@ -41,27 +49,24 @@ code {
 }
 
 /*mini parallax*/
-.parallax-header-background-mini {
-    background-image: url('components/images/toppexels.png');
-    background-size: cover;
-    background-position: center;
-    /*this may cause lag*/
-    /*object-fit: contain;*/
-    text-align: center;
-    height: 400px;
-    width: 100%;
-}
+/*.parallax-header-background-mini {*/
+/*    background-image: url('components/images/toppexels.png');*/
+/*    background-size: cover;*/
+/*    !*this may cause lag*!*/
+/*    !*object-fit: contain;*!*/
+/*    text-align: center;*/
+/*    height: 400px;*/
+/*    width: 100%;*/
+/*}*/
 
 /*Header*/
 .parallax-header-background {
     background-image: url('components/images/toppexels.png');
-    background-size: cover;
     background-position: center;
     /*this may cause lag*/
     object-fit: stretch;
     text-align: center;
     height: 1050px;
-    width: 100%;
 }
 
 .parallax-row {
@@ -214,6 +219,8 @@ code {
 
 .twitter-image-col {
     padding-top: 30px;
+    display: block;
+    max-width: 100%;
 }
 
 #twitter-button {
@@ -347,12 +354,35 @@ code {
 #delfiphoto {
     padding-top: 7.5px;
     text-align: center;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    margin-left: 12%;
+    margin-right: 15%;
 }
+
+#ilitestnetphoto {
+    padding-top: 6px;
+    text-align: center;
+    margin-left: 14.5%;
+    margin-right: 15%;
+}
+
+#discordbotphoto {
+    padding-top: 6.5px;
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 15%;
+}
+
+#delfimobilephoto {
+    padding-top: 6.5px;
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 15%;
+}
+
 .veritcal-timeline {
     padding-top: 25px;
 }
+
 .spacer {
     padding: 25px;
 }

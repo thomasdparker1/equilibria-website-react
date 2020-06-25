@@ -1,7 +1,7 @@
 import React from "react";
 import {Col} from "react-bootstrap";
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
-import {DelfiPicture, MobilePicture, WalletPicture} from "./pictures";
+import {DelfiPhoto, MobilePhoto, WalletPhoto, DelfiWebsitePhoto, IliTestnetPhoto, DiscordBotPhoto, DelfiMobilePhoto} from "./pictures";
 import {Spacer} from "./spacer";
 
 export class Roadmap extends React.Component {
@@ -18,10 +18,10 @@ export class Roadmap extends React.Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{background: '#000000', color: '#fff'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(33, 150, 243)'}}
+                        contentArrowStyle={{borderRight: '7px solid  #000000'}}
                         date="2020"
                         iconStyle={{background: '#000000', color: '#fff'}}
-                        icon={<MobilePicture/>}
+                        icon={<MobilePhoto/>}
                     >
                         <h3 className="vertical-timeline-element-title">Rebase</h3>
                         <p>
@@ -31,10 +31,10 @@ export class Roadmap extends React.Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{background: '#000000', color: '#fff'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(33, 150, 243)'}}
+                        contentArrowStyle={{borderRight: '7px solid  #000000'}}
                         date="2020"
                         iconStyle={{background: '#000000', color: '#fff'}}
-                        icon={<WalletPicture/>}
+                        icon={<WalletPhoto/>}
                     >
                         <h3 className="vertical-timeline-element-title">Mobile Wallets</h3>
                         <p>
@@ -44,10 +44,10 @@ export class Roadmap extends React.Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{background: '#14afde', color: '#fff'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(33, 150, 243)'}}
+                        contentArrowStyle={{borderRight: '7px solid  #14afde'}}
                         date="2020"
                         iconStyle={{background: '#14afde', color: '#fff'}}
-                        icon={<DelfiPicture/>}
+                        icon={<DelfiPhoto/>}
                     >
                         <h3 className="vertical-timeline-element-title">DELFI v1</h3>
                         <p>
@@ -57,10 +57,10 @@ export class Roadmap extends React.Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{background: '#14afde', color: '#fff'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(33, 150, 243)'}}
+                        contentArrowStyle={{borderRight: '7px solid  #14afde'}}
                         date="2020"
                         iconStyle={{background: '#14afde', color: '#fff'}}
-                        icon={<MobilePicture/>}
+                        icon={<DelfiWebsitePhoto/>}
                     >
                         <h3 className="vertical-timeline-element-title">DELFI Website</h3>
                         <p>
@@ -70,10 +70,10 @@ export class Roadmap extends React.Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{background: '#14afde', color: '#fff'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(33, 150, 243)'}}
+                        contentArrowStyle={{borderRight: '7px solid  #14afde'}}
                         date="2020"
                         iconStyle={{background: '#14afde', color: '#fff'}}
-                        icon={<MobilePicture/>}
+                        icon={<IliTestnetPhoto/>}
                     >
                         <h3 className="vertical-timeline-element-title">ili Bet Testnet</h3>
                         <h4 className="vertical-timeline-element-subtitle">CLI functionality for testing</h4>
@@ -84,24 +84,25 @@ export class Roadmap extends React.Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{background: '#14afde', color: '#fff'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(33, 150, 243)'}}
+                        contentArrowStyle={{borderRight: '7px solid  #14afde'}}
                         date="2020"
                         iconStyle={{background: '#14afde', color: '#fff'}}
-                        icon={<MobilePicture/>}
+                        icon={<DiscordBotPhoto/>}
                     >
                         <h3 className="vertical-timeline-element-title">ili Bet Discord Bot</h3>
                         <h4 className="vertical-timeline-element-subtitle">eSports betting on discord</h4>
                         <p>
-                            ili Bet will have a discord bot that can be used to make bets through Discord - the gamers hub.
+                            ili Bet will have a discord bot that can be used to make bets through Discord - the gamers
+                            hub.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{background: '#14afde', color: '#fff'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(33, 150, 243)'}}
+                        contentArrowStyle={{borderRight: '7px solid  #14afde'}}
                         date="2020"
                         iconStyle={{background: '#14afde', color: '#fff'}}
-                        icon={<MobilePicture/>}
+                        icon={<DelfiWebsitePhoto/>}
                     >
                         <h3 className="vertical-timeline-element-title">ili Bet GUI Platform & Website</h3>
                         <p>
@@ -111,10 +112,10 @@ export class Roadmap extends React.Component {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{background: '#14afde', color: '#fff'}}
-                        contentArrowStyle={{borderRight: '7px solid  rgb(33, 150, 243)'}}
+                        contentArrowStyle={{borderRight: '7px solid  #14afde'}}
                         date="2020"
                         iconStyle={{background: '#14afde', color: '#fff'}}
-                        icon={<MobilePicture/>}
+                        icon={<DelfiMobilePhoto/>}
                     >
                         <h3 className="vertical-timeline-element-title">ili Bet Mobile App</h3>
                         <p>

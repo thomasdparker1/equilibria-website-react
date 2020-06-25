@@ -4,9 +4,9 @@ import {Nav, Navbar, NavDropdown} from "react-bootstrap";
 export class MainNav extends React.Component {
     render() {
         return (
-            <Navbar variant="myNav" expand="lg" fixed="top">
+            <Navbar variant="myNav" expand="sm" fixed="top">
                 <Navbar.Brand href="#home">Equilibria Network</Navbar.Brand>
-                <Nav>
+                {/*<Nav style={{display:"flex", flexDirection:"row"}}>*/}
                     <Nav.Link variant="navLink" href="https://explorer.equilibria.network/">Explorer</Nav.Link>
                     <Nav.Link variant="navLink"
                               href="https://github.com/EquilibriaCC/Equilibria/releases">Wallet</Nav.Link>
@@ -20,7 +20,7 @@ export class MainNav extends React.Component {
                         <NavDropdown.Item href="https://discord.gg/pDyfUTs">Discord</NavDropdown.Item>
                         <NavDropdown.Item href="https://t.me/EquilibriaNetwork">Telegram</NavDropdown.Item>
                     </NavDropdown>
-                </Nav>
+                {/*</Nav>*/}
             </Navbar>
         );
     }

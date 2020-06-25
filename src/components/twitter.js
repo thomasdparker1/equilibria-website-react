@@ -10,7 +10,9 @@ export class Twitter extends React.Component {
                 <div className="selfCenter">
                     <Row>
                         <Col bsPrefix={"twitter-image-col"}>
-                            <Image src={require("./images/tweet.png")} href={"https://twitter.com/EquilibriaCC/status/1274543946895519744"} width={600} height={550}/>
+                            <Image src={require("./images/tweet.png")}
+                                   href={"https://twitter.com/EquilibriaCC/status/1274543946895519744"}
+                            />
                         </Col>
                         <Col bsPrefix={"twitter-text-col"}>
                             <h3 id={"twittertext"}>Join us on Twitter and<br/>Discord to stay in the know.</h3>

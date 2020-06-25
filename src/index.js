@@ -10,12 +10,12 @@ import {ModalPopup} from "./components/modal_popup";
 import {Twitter, TwitterParallax} from "./components/twitter";
 import {ThreeCols} from "./components/threecols";
 import {MainParallax, MiniParallax} from "./components/parallax";
+import {Container} from "react-bootstrap";
 
 class Main extends React.Component {
 
     render() {
         return (
-
             <div id={"main"}>
                 <MainNav/>
                 <MainParallax/>
