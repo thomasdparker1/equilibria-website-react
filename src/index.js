@@ -10,6 +10,7 @@ import {ModalPopup} from "./components/modal_popup";
 import {Twitter, TwitterParallax} from "./components/twitter";
 import {ThreeCols} from "./components/threecols";
 import {MainParallax, MiniParallax} from "./components/parallax";
+import {DelfiSection} from "./components/delfi";
 import {Container} from "react-bootstrap";
 
 class Main extends React.Component {
@@ -23,6 +24,8 @@ class Main extends React.Component {
                 <TwitterParallax/>
                 <EquilibriaSection/>
                 <Roadmap/>
+                <MiniParallax />
+                <DelfiSection />
             </div>
 
         );

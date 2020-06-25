@@ -49,15 +49,15 @@ code {
 }
 
 /*mini parallax*/
-/*.parallax-header-background-mini {*/
-/*    background-image: url('components/images/toppexels.png');*/
-/*    background-size: cover;*/
-/*    !*this may cause lag*!*/
-/*    !*object-fit: contain;*!*/
-/*    text-align: center;*/
-/*    height: 400px;*/
-/*    width: 100%;*/
-/*}*/
+.parallax-header-background-mini {
+    background-image: url('components/images/toppexels.png');
+    background-size: cover;
+    /*this may cause lag*/
+    /*object-fit: contain;*/
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
 
 /*Header*/
 .parallax-header-background {
@@ -208,12 +208,14 @@ code {
 
 .twitter-text-col {
     padding-top: 200px;
-    width: 60%;
+
+    width: 70%;
 }
 
 #twittertext {
     text-align: right;
     font-size: 60px;
+    padding-right: 50px;
     color: #212529;
 }
 

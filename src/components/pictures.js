@@ -10,36 +10,36 @@ import './images/discordbot.png'
 import './images/delfimobile.png'
 
 export function WalletPhoto(props) {
-    return <Image id={"walletphoto"} src={require("./images/Wallet.png")} />
+    return <Image id={"walletphoto"} src={require("./images/Wallet.png")}/>
 
 }
 
 export function MobilePhoto(props) {
-    return <Image id={"rebasephoto"} src={require("./images/Rebase.png")} />
+    return <Image id={"rebasephoto"} src={require("./images/Rebase.png")}/>
 
 }
 
 export function DelfiPhoto(props) {
-    return <Image id={"delfiphoto"} src={require("./images/DelFi.png")} />
+    return <Image id={"delfiphoto"} src={require("./images/DelFi.png")}/>
 
 }
 
 export function DelfiWebsitePhoto(props) {
-    return <Image id={"delfiphoto"} src={require("./images/delfiwebsite.png")} />
+    return <Image id={"delfiphoto"} src={require("./images/delfiwebsite.png")}/>
 
 }
 
 export function IliTestnetPhoto(props) {
-    return <Image id={"ilitestnetphoto"} src={require("./images/ilitestnet.png")} />
+    return <Image id={"ilitestnetphoto"} src={require("./images/ilitestnet.png")}/>
 
 }
 
 export function DiscordBotPhoto(props) {
-    return <Image id={"discordbotphoto"} src={require("./images/discordbot.png")} />
+    return <Image id={"discordbotphoto"} src={require("./images/discordbot.png")}/>
 
 }
 
 export function DelfiMobilePhoto(props) {
-    return <Image id={"delfimobilephoto"} src={require("./images/delfimobile.png")} />
+    return <Image id={"delfimobilephoto"} src={require("./images/delfimobile.png")}/>
 
 }

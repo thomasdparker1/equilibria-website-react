@@ -1,7 +1,15 @@
 import React from "react";
 import {Col} from "react-bootstrap";
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
-import {DelfiPhoto, MobilePhoto, WalletPhoto, DelfiWebsitePhoto, IliTestnetPhoto, DiscordBotPhoto, DelfiMobilePhoto} from "./pictures";
+import {
+    DelfiPhoto,
+    MobilePhoto,
+    WalletPhoto,
+    DelfiWebsitePhoto,
+    IliTestnetPhoto,
+    DiscordBotPhoto,
+    DelfiMobilePhoto
+} from "./pictures";
 import {Spacer} from "./spacer";
 
 export class Roadmap extends React.Component {
