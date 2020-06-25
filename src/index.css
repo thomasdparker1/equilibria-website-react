@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.div {
+    font-family: 'Poppins';
+    filter: blur(0px);
+}
+
+/*Nav Bar Section*/
+.navbar {
+    background-color: #14afde;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 25px
+}
+
+.nav-link {
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+.nav-link:hover {
+    color: #dcdcdc;
+}
+
+.navbar-brand:hover {
+    color: #dcdcdc;
+}
+
+/*mini parallax*/
+.parallax-header-background-mini {
+    background-image: url('components/images/toppexels.png');
+    background-size: cover;
+    background-position: center;
+    /*this may cause lag*/
+    /*object-fit: contain;*/
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
+
+.twitter-parallax-header-background {
+    background-image: url('components/images/toppexels.png');
+    background-size: cover;
+    background-position: center;
+    /*this may cause lag*/
+    object-fit: contain;
+    text-align: center;
+    height: 1000px;
+    width: 100%;
+}
+
+/*Header*/
+.parallax-header-background {
+    background-image: url('components/images/toppexels.png');
+    background-size: cover;
+    background-position: center;
+    /*this may cause lag*/
+    /*object-fit: contain;*/
+    text-align: center;
+    height: 1050px;
+    width: 100%;
+}
+
+.parallax-row {
+    text-align: left;
+    padding-top: 150px;
+}
+
+.parallax-col {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#xeqHeader {
+    color: #F4E4C1;
+    text-align: center;
+    font-size: 80px;
+}
+
+#xeqheaderlogo {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+#oraclenodeheader {
+    font-size: 60px;
+    color: #fff;
+    background-color: #14afde;
+    font-family: Poppins;
+}
+
+#headertext {
+    font-family: Poppins;
+    font-size: 200px;
+    color: #fff;
+    filter: contrast(100%);
+}
+
+/*Columns*/
+.mainBody {
+    width: 100%;
+    padding-top: 100px;
+    background-color: #F4E4C1;
+}
+
+.threecolsrow {
+    background-color: #fff;
+}
+
+.col {
+    background-color: #0D19A3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.col3 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*padding: 400px;*/
+    width: 100%;
+}
+
+.row {
+    padding: 20px;
+    text-align: center;
+}
+
+.threecols1 {
+    width: 33.33%;
+}
+
+.threecols2 {
+    width: 33.33%;
+}
+
+.threecols3 {
+    width: 33.33%;
+}
+
+#threecolsHeader {
+    text-align: center;
+    padding-top: 20px
+}
+
+#threecolstext {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    text-align: center;
+}
+
+#threecolsbtn {
+    color: #14afde;
+    border-color: #14afde;
+    text-align: center;
+    width: 40%;
+}
+
+#threecolsbtn:hover {
+    background-color: #dcdcdc;
+}
+
+/*Twitter Embed*/
+.centerContent {
+    height: 750px;
+    padding-top: 60px;
+    background-image: url("components/images/twitterbackground.jpg");
+    background-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+.selfCenter {
+    padding-left: 100px;
+}
+
+.twitter-text-col {
+    padding-top: 200px;
+    width: 60%;
+}
+
+#twittertext {
+    text-align: right;
+    font-size: 60px;
+    color: #212529;
+}
+
+#twitter-button {
+    color: #14afde;
+    border-color: #14afde;
+    text-align: center;
+    width: 10%;
+    margin-left: 35%;
+    margin-right: 5%;
+}
+
+#twitter-button:hover {
+    background-color: #dcdcdc;
+}
+
+#discord-button {
+    color: #14afde;
+    border-color: #14afde;
+    text-align: center;
+    width: 10%;
+
+}
+
+#discord-button:hover {
+    background-color: #dcdcdc;
+}
+
+.button-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Network Info*/
+.networkinfocols {
+    padding: 200px;
+    background-position: center;
+}
+
+#networkinfoheader {
+    font-size: 100px;
+    text-align: center;
+    background-color: #14afde;
+    color: #fff;
+    font-family: Poppins;
+    padding: 25px;
+    width: 100%;
+}
+
+/*Equilibria Section*/
+.equilibriacols {
+    padding: 75px;
+    background-position: center;
+    width: 50%;
+}
+
+.equilibriacols2 {
+    padding: 100px;
+    width: 50%;
+    background-image: url("components/images/xeqheaderlogo.png");
+}
+
+.equilibriacols3 {
+    padding: 20px;
+    width: 33.3333%;
+    background-color: #14afde;
+}
+
+#equilibriah2 {
+    font-size: 60px;
+    text-align: left;
+}
+
+#equilibriaparagraph {
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: left;
+
+}
+
+#networkrow {
+    background-color: #14afde;
+}
+
+#firstequilibriatextrow {
+    background-color: #fff;
+}
+
+#oracleequilibriah {
+    font-size: 60px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#oraclebtn {
+    color: #14afde;
+    border-color: #14afde;
+    text-align: center;
+    width: 30%;
+}
+
+#oraclebtn:hover {
+    background-color: #dcdcdc;
+}
+
+#oraclebtndiv {
+    text-align: left;
+}
+
+.roadmapcol {
+    text-align: center;
+    padding-top: 25px;
+    width: 100%;
+    background-color: #14afde;
+    padding-bottom: 25px;
+}
+
+#rebasephoto {
+    padding-top: 7px;
+    text-align: center;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+#walletphoto {
+    padding-top: 6px;
+    text-align: center;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
+}
+
+#delfiphoto {
+    padding-top: 7.5px;
+    text-align: center;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+.veritcal-timeline {
+    padding-top: 25px;
+}
+.spacer {
+    padding: 25px;
+}
