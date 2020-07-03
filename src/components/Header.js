@@ -1,46 +1,7 @@
 import React from "react";
 import {Col, Row, Container} from "react-bootstrap";
 
-export class MiniParallax extends React.Component {
-    constructor() {
-        super()
-
-        this.state = {
-            offset: 0
-        };
-    }
-
-    componentDidMount() {
-        window.addEventListener('scroll', this.parallaxShift);
-    }
-
-    componentWillUnmount() {
-        window.removeEventListener('scroll', this.parallaxShift);
-    }
-
-    parallaxShift = () => {
-        this.setState({
-            offset: window.pageYOffset
-        });
-    };
-
-    render() {
-        return (
-            <header
-                className='parallax-header-background-mini'
-                style={{backgroundPositionY: this.state.offset}}
-            >
-                <section
-                    className='parallax-container-mini'
-                    style={{bottom: this.state.offset / 4}}
-                >
-                </section>
-            </header>
-        );
-    }
-}
-
-export class MainParallax extends React.Component {
+export class Header extends React.Component {
     constructor() {
         super()
 
